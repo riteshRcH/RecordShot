@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecordShotApp</string>
+    <string name="screenshotBtnLabel">ScreenShot Capture</string>
+    <string name="screenRecordBtnLabel">Screen Recording</string>
+    <string name="exitBtnLabel">Exit</string>
+    <string name="ScreenshotImgFormatBtnLabel">Format of Image</string>
+    <string name="GetDefaultFileNameEntryHint">FileName(Default = ScreenShot)</string>
+    <string name="appendTimeStampChkBoxLabel">Append TimeStamp to FileName</string>
+    <string name="PreviousShotsViewBtnLabel">View Captured</string>
+    <string name="GetDelayEntryHint">Seconds Time Delay(default = 5)</string>
+    <string name="shake2CaptureChkBoxLabel">Shake to capture</string>
+    <string name="setCaptureHotkeyBtnLabel">Set Capture HotKey</string>
+    <string-array name="ScreenShotImgFrmt">
+        <item >PNG</item>
+        <item >JPG</item>
+    </string-array>
+    <string name="StartScreenCaptureServiceBtnLabel">Start Service!</string>
+    <string name="delaySetChkBoxLabel">Enable Delay</string>
+    <string name="playSoundOnCaptureChkBoxLabel">Play Sound On Capture!</string>
+    <string name="gameCaptureModeChkBoxLabel">Game Capture Mode!</string>
+    <string name="StartScreenRecordServiceBtnLabel">Start Service!</string>
+    <string name="StopScreenRecordServiceBtnLabel">Stop Service!</string>
+    <string name="shake2StartRecordChkBoxLabel">Shake to Start Recording!</string>
+    <string name="setFpsBtnLabel">Set FPS(Frames Per Second)</string>
+    <string name="recordAudioChkBoxLabel">Record Audio(MIC)</string>
+    <string name="setCapturedAudioExtensionBtnLabel">Set File Format of Captured Audio!</string>
+    <string-array name="CapturedAudioFrmt">
+        <item >MP3</item>
+        <item >3GP</item>
+    </string-array>
+    <string name="helpBtnLabel">Guide/Help!</string>
+    <string name="tyStr">ThAnK YoU!</string>
+
+</resources>

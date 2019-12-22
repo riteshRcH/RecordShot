@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <Button
+           android:id="@+id/StartScreenRecordServiceBtn"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dip"
+           android:layout_marginBottom="20dip"
+           android:text="@string/StartScreenRecordServiceBtnLabel" />
+        
+        <Button
+           android:id="@+id/StopScreenRecordServiceBtn"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="20dip"
+           android:enabled="false"
+           android:text="@string/StopScreenRecordServiceBtnLabel" />
+        
+        <CheckBox
+            android:id="@+id/shake2StartRecordChkBox"
+            style="?android:attr/starStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:checked="false"
+            android:text="@string/shake2StartRecordChkBoxLabel" />
+        
+        <Spinner android:id="@+id/setFpsSpinner"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:soundEffectsEnabled="true" />/
+            	
+        <CheckBox
+            android:id="@+id/recordAudioChkBox"
+            style="?android:attr/starStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="20dip"
+            android:checked="false"
+            android:text="@string/recordAudioChkBoxLabel" />
+        
+        <Button
+           android:id="@+id/setCapturedAudioExtensionBtn"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="40dip"
+           android:layout_marginBottom="20dip"
+           android:text="@string/setCapturedAudioExtensionBtnLabel" />
+        
+    </LinearLayout>
+    
+
+</ScrollView>
